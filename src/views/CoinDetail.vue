@@ -175,7 +175,7 @@ export default {
   methods: {
     getCoin() {
       const id = this.$route.params.id;
-      console.log(id);
+      //console.log(id);
       this.isLoading = true;
       Promise.all([
         api.getAsset(id),
