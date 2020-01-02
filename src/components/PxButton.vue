@@ -11,18 +11,18 @@
 </template>
 
 <script>
-  export default {
-    name: "PxButton",
-    props: {
-      isLoading: {
-        type: Boolean,
-        default: false
-      }
-    },
-    methods: {
-      buttonClick() {
-        this.$emit("custom-click");
-      }
+export default {
+  name: "PxButton",
+  props: {
+    isLoading: {
+      type: Boolean,
+      default: false
     }
-  };
+  },
+  methods: {
+    buttonClick() {
+      this.$emit("custom-click");
+    }
+  }
+};
 </script>
