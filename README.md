@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fbb741b0-8309-455a-9703-b3571aba8cb1/deploy-status)](https://app.netlify.com/sites/crypto-exchange-brimo/deploys)
+
 # platzi-exchange
 
 ## Project setup
